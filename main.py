@@ -1,7 +1,5 @@
-import os
-from google.cloud import translate_v2 as translate
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] =r"D:\Python\my-translation-api-7f9d257e6b35.json"
+from google.cloud import translate_v2 as translate
 
 translate_client = translate.Client()
 
